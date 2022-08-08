@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+	font-family: 'Roboto';
+	font-style: normal;
+}
+
+body, .search {
+	background: #FAFAFA;
+}
+
+.screen, .stories, .post, .header-post, .label, .bottom-bar {
+	background: #FFFFFF;
+}
+
+.screen, .stories, .header-post, .label, .bottom-bar, .search {
+	border: 1px solid #DBDBDB;	
+}
+
+.header p, .search {
+	width: 215px;
+}
+
+.header ion-icon, .label ion-icon, .bottom-bar ion-icon, .perfil-liked {
+	width: 22px;
+	height: 22px;
+}
+
+.post, .img-post {
+	max-width: 614px;
+}
+
+.perfil-sugest, .perfil-sugest img, .stories ion-icon {
+	width: 32px;
+	height: 32px;
+}
+
+.stories, .post, .header-post,.search {
+	border-radius: 3px;
+}
+
+.stories img, .perfil img, .perfil-sugest, .perfil-liked {
+	border-radius: 100%;
+}
+
+.header-post h1, .label b, .perfil h1, .suggestions h1, .suggestions h2, .suggestions h3, .suggestions h5 {
+	font-weight: 500;
+}
+
+.header p, .stories p, .sidebar h6, .perfil h2, .suggestions h4 {
+	font-weight: 400;
+}
+
+.header-post h1, .label p, .label b, .perfil h1, .suggestions h3 {
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.header p, .stories p, .perfil h2, .suggestions h1, .suggestions h2, .suggestions h4, .suggestions h5 {
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.stories p, .header-post h1, .perfil h1, .suggestions h3 {
+	color: #262626;
+}
+
+.main-body, .storiesm, .header-post, .label, .img-post img {
+	width: 614px;
+}
+
+.header p, .stories p {
+	justify-content: center;
+}
+
+.perfil h2, .suggestions h4 {
+	color: #8E8E8E;
+}
+
+.perfil img, .perfil-sugest {
+	margin-right: 20px;
+}
+
+.header, .main-page {
+	max-width: 935px;
+}
+
+#bar2, .header-post h1, .stories div, .sidebar h6, .perfil h1, .header p, .stories p, .perfil h2, .suggestions h1, .suggestions h2, .suggestions h3, .suggestions h4, .suggestions h5 {
+	display: flex;
+	align-items: center;
+}
+
+#img, .perfil img {
+	height: 52.8px;
+	width: 52.8px;
+}
+
+#bottom-bar, .mobile {
+	display: None;
+}
+
+#bar2, .header, .bottom-bar {
+	height: 54px;
+}
+
+#suggest-box, .bottom-bar {
+	width: 100%;
+}
+
+.screen {
+	max-width: 1366px;
+	margin: auto;
+}
+
+.screen .header {
+	margin: 0 15%;
+}
+
+.header img {
+	height: 22px;
+	margin-top: 3px;
+}
+
+.header p {
+	height: 26px;
+	color: #979797;
+}
+
+.header .icon-separate ion-icon{
+	margin-left: 18px;
+}
+
+.header .bar1 {
+	width: 1px;
+	height: 22px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: #DBDBDB;
+}
+
+.header .search {
+	height: 28px;
+}
+
+.main-page {
+	margin: auto;
+	top: 34px;
+}
+
+.sidebar {
+	width: 293px;
+}
+
+.sidebar h6 {
+	font-size: 11px;
+	line-height: 13px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	color: #C7C7C7;
+}
+
+.suggestions h5 {
+	color: #139EF2;
+}
+
+.bottom-bar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.stories {
+	height: 118px;
+	overflow: hidden;
+}
+
+.stories div {
+	flex-direction: column;
+	justify-content: center;
+}
+
+.stories img {
+	height: 80px;
+}
+
+.stories p {
+	margin-top: -4px;
+}
+
+.stories ion-icon {
+	position: absolute;
+	left: 570px;
+	top: 40px;
+	color: #FFFFFF;
+	filter: drop-shadow(0px 4px 4px rgb(53, 51, 51, 0.5));
+}
+
+.post {
+    max-height: 749px;
+    width: auto;
+    height: auto;
+	margin-top: 24px;
+	margin-bottom: 60px;
+}
+
+.post .header-post {
+	height: 61px;
+}
+
+.post .img-post img {
+	width: 100%;
+}
+.post .img-post {
+    max-width: 614px;
+}
+
+
+.post .label {
+	height: 76px;
+	justify-content: space-around;
+}
+
+.post .label div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.post .label img {
+	height: 20px;
+}
+
+.post .label p {
+	font-weight: 300;
+	margin-top: 3px;
+	color: #000000;
+}
+
+.post .label b {
+	text-align: center;
+}
+
+.post .perfil {
+	height: 98px;
+	padding-top: 6px;
+}
+
+.post .perfil-liked {
+	margin: 0px 10px;
+}
+
+.flex-on {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+.space-bet {
+	justify-content: space-between;
+}
+
+.center {
+	justify-content: center;
+}
+
+.just-start{
+	justify-content: flex-start;
+}
+
+.margin-l-10px {
+	margin-left: 10px;
+}
+
+.margin-l-206px {
+	margin-left: 206px;
+}
+
+.margin-r-206px {
+	margin-right: 206px;
+}
+
+.margin-b-10px {
+	margin-bottom: 10px;
+}
+
+.margin-b-20px {
+	margin-bottom: 20px;
+}
+
+.margin-t-20px {
+	margin-top: 20px;
+}
+
+.margin-h-10porc {
+	margin: 0px 2%;
+}
+
+.margin-r-10px {
+	margin-right: 10px;
+}
+
+.position-relat {
+	position: relative;
+}
+
+.border-box {
+	box-sizing: border-box;
+}
+
+#img {
+	position: absolute;
+	top: 14px;
+	left: 13.5px;
+}
+
+#label-liked {
+	justify-content: flex-start;
+}
